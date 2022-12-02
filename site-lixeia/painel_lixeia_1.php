@@ -57,7 +57,5 @@ $con_lixeia_1 = $conexao_lixeia->query($consulta_lixeia_1) or die($conexao_lixei
     <?php
     echo "<h1>Bem vindo <u>$logado</u></h1>";
     ?>
-
 </body>
-
 </html>

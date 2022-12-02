@@ -1,7 +1,7 @@
 <html>
 
 <head>
-    <link rel="stylesheet" type="text/css" href="./css/sobreNos.css">
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
     <link rel="stylesheet" type="text/css" href="./css/slick.css">
     <title>Lixeia | Sobre nós</title>
 </head>
@@ -25,7 +25,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.instagram.com/" target="blank">
+                            <a href="https://www.instagram.com/_lixeia_/" target="blank">
                                 <!--as referencias sao os links das redes sociais da lixeia-->
                                 <img src="./img/Logo Instagram.png">
                                 <!--as sources sao os logos das redes sociais correspondentes-->
@@ -88,26 +88,19 @@
     <div class="col-100">
         <div class="content texto-destaque">
             <h1> <strong>Quem</strong> somos nós?</h1>
-            <p> Texo sobre como nos conhecemos e apresentação geral (jovens, rio grande do sul, etc)
+            <p>Colegas de colégio e amigos de longa data, sempre tivemos gosto por invocação e tecnologia. Assim, ao perceber uma lacuna tecnológica no setor de recolhimento de lixo, perguntamos uns aos outros: será que é possível tornar esse serviço mais rápido e menos desgastante aos trabalhadores? A partir deste momento, nos dedicamos ao desenvolvimento de um mecanismo capaz de agilizar este processo, o qual felizmente mostrou-se muito eficiente. Agora, queremos compartilha-lo!
             </p>
             <div class="col-3 bloco-texto">
-                <i><img src="./img/fotosNossas/daniel.jpg" width="300" /></i>
-                
+                <i><img src="./img/fotosNossas/daniel.jpg" width="225" /></i>
                 <h3>Daniel Kroeff</h3>
-                <p>Texto de apresentação
-                </p>
             </div>
             <div class="col-3 bloco-texto">
-                <i><img src="./img/fotosNossas/eduardo.jpg" width="300" /></i>
+                <i><img src="./img/fotosNossas/eduardo.jpg" width="225" /></i>
                 <h3>Eduardo Trindade</h3>
-                <p>Texto de apresentação
-                </p>
             </div>
             <div class="col-3 bloco-texto">
-            <i><img src="./img/fotosNossas/henrique.jpg" width="300" height="300" /></i>
+            <i><img src="./img/fotosNossas/henrique.jpg" width="225" height="225" /></i>
                 <h3>Henrique Sangiovanni </h3>
-                <p>Texto de apresentação
-                </p>
             </div>
         </div>
     </div>

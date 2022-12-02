@@ -2,11 +2,15 @@ body {
 width: 100%;
 height: 100%;
 margin: 0 auto;
+background-color: #d5e4cf;
+}
+p{
+    color: #5e5e5e;
 }
 
 .menu-principal {
 width: 100%;
-background-color: #252323;
+background-color: #001e27;
 height: 70px;
 }
 
@@ -36,7 +40,7 @@ float: right;
 }
 
 .header-2 {
-background-color: #ffffff;
+background-color: #d5e4cf;
 width: 980px;
 margin: 0 auto;
 padding: 13px;
@@ -44,12 +48,12 @@ padding: 13px;
 
 .menu-urls {
 height: 80px;
-border-bottom: 3px solid #efefef;
+border-bottom: 3px solid #7CCE00;
 }
 
 .menu ul li {
 display: inline-block;
-color: #8b8b8b;
+color: #5e5e5e;
 margin-left: 17px;
 height: 50px;
 }
@@ -59,7 +63,7 @@ border-bottom: 2px solid #7CCE00;
 }
 
 .menu ul li a {
-color: #8b8b8b;
+color: #5e5e5e;
 text-decoration: none;
 font-size: 15px;
 text-transform: uppercase;

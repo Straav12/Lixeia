@@ -29,7 +29,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.instagram.com/" target="blank">
+                            <a href="https://www.instagram.com/_lixeia_/" target="blank">
                                 <!--as referencias sao os links das redes sociais da lixeia-->
                                 <img src="./img/Logo Instagram.png">
                                 <!--as sources sao os logos das redes sociais correspondentes-->

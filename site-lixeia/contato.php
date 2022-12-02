@@ -3,7 +3,7 @@
 <head>
     <link rel="stylesheet" type="text/css" href="./css/main.css">
     <link rel="stylesheet" type="text/css" href="./css/slick.css">
-    <title>Lixeia | Home</title>
+    <title>Lixeia | Sobre nós</title>
 </head>
 
 <body>
@@ -25,7 +25,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.instagram.com/" target="blank">
+                            <a href="https://www.instagram.com/_lixeia_/" target="blank">
                                 <!--as referencias sao os links das redes sociais da lixeia-->
                                 <img src="./img/Logo Instagram.png">
                                 <!--as sources sao os logos das redes sociais correspondentes-->
@@ -59,11 +59,11 @@
                     </li>
                     <!--as referencias sao os links das paginas que cada item do menu direcionara-->
                     <li>
-                        <a href="nossoServico.php">Nosso Serviço</a>
+                        <a href="">Nosso Serviço</a>
                     </li>
                     <!--as referencias sao os links das paginas que cada item do menu direcionara-->
                     <li>
-                        <a href="aluguel.php">Aluguel</a>
+                        <a href="">Aluguel</a>
                     </li>
                     <!--as referencias sao os links das paginas que cada item do menu direcionara-->
                     <li>
@@ -71,7 +71,7 @@
                     </li>
                     <!--as referencias sao os links das paginas que cada item do menu direcionara-->
                     <li>
-                        <a href="contato.php">Contato</a>
+                        <a href="">Contato</a>
                     </li>
                     <!--as referencias sao os links das paginas que cada item do menu direcionara-->
                     <li>
@@ -86,40 +86,21 @@
         </div>
     </main>
     <div class="col-100">
-        <div class="slider-principal">
-            <img src="./img/Banner Logo Lixeia.png">
-            <img src="./img/Empreendedorismo.png">
-            <img src="./img/Lixeia e cidade.png">
-            <img src="./img/Abstrato.png">
-        </div>
-    </div>
-    <div class="col-100">
         <div class="content texto-destaque">
-            <h1>Lixeia: a <strong>revolução tecnológica</strong> no manejamento de resíduos</h1>
-            <p> Lixeia lixeia lixeia lixeia lixeia lixeia lixeia lixeia lixeia lixeia lixeia lixeia lixeia lixeia lixeia
-                lixeia lixeia lixeia lixeia lixeia lixeia lixeia lixeia lixeia lixeia lixeia lixeia lixeia
-                lixeia lixeia lixeia lixeia lixeia lixeia lixeia lixeia lixeia lixeia lixeia lixeia lixeia
+            <h1> <strong>Contato</strong></h1>
+            <p>Caso queira contratar o serviço, sugerir modificações ou simplesmente conversar, estamos abertos pelos seguintes meios:
             </p>
             <div class="col-3 bloco-texto">
-                <img src="./img/Tecnologia de ponta.png" />
-                <h3><b>Tecnologia</b> de ponta</h3>
-                <p>Lixeia lixeia lixeia lixeia lixeia lixeia lixeia lixeia lixeia lixeia lixeia lixeia
-                    lixeia lixeia lixeia lixeia lixeia lixeia lixeia
-                </p>
+                <i><img src="./img/fotosNossas/daniel.jpg" width="225" /></i>
+                <h3>E-mail</h3>
             </div>
             <div class="col-3 bloco-texto">
-                <img src="./img/Corte de gastos.png" />
-                <h3><b>Redução</b> de gastos</h3>
-                <p>Lixeia lixeia lixeia lixeia lixeia lixeia lixeia lixeia lixeia lixeia lixeia lixeia
-                    lixeia lixeia lixeia lixeia lixeia lixeia lixeia
-                </p>
+                <i><img src="./img/fotosNossas/eduardo.jpg" width="225" /></i>
+                <h3>Eduardo Trindade</h3>
             </div>
             <div class="col-3 bloco-texto">
-                <img src="./img/Otimizacao do tempo.png" />
-                <h3><b>Otimização</b> do tempo</h3>
-                <p>Lixeia lixeia lixeia lixeia lixeia lixeia lixeia lixeia lixeia lixeia lixeia lixeia
-                    lixeia lixeia lixeia lixeia lixeia lixeia lixeia
-                </p>
+            <i><img src="./img/fotosNossas/henrique.jpg" width="225" height="225" /></i>
+                <h3>Henrique Sangiovanni </h3>
             </div>
         </div>
     </div>
