@@ -177,16 +177,18 @@ text-align: center;
 .texto-destaque h1 {
 text-transform: uppercase;
 font-size: 30px;
-color: #818181;
+color: #001e27;
 }
 
 .texto-destaque strong {
-color: #646464;
+color: #001e27;
 }
 
 .texto-destaque p {
-font-size: 15px;
-color: #9a9a9a;
+font-size: 20px;
+color: #555555;
+margin-left: 9%;
+margin-right: 9%;
 }
 
 .col-3 {
@@ -200,4 +202,3 @@ position: relative;
 .bloco-texto{
 margin-top: 3em;
 }
-

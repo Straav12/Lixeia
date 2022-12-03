@@ -63,8 +63,11 @@
             <input type="password" name="senha" placeholder="Senha">
             <br><br>
             <input class="inputSubmit" type="submit" name="submit" value="Enviar">
+            <br><br><br>
+            <a href="index.php" class="back">Voltar</a>
         </form>
     </div>
+
 </body>
 
 </html>

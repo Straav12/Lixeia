@@ -54,16 +54,16 @@
         <div class="header-2">
             <div class="menu">
                 <ul>
-                    <li>
+                <li>
                         <a href="index.php">Home</a>
                     </li>
                     <!--as referencias sao os links das paginas que cada item do menu direcionara-->
                     <li>
-                        <a href="">Nosso Serviço</a>
+                        <a href="nossoServico.php">Nosso Serviço</a>
                     </li>
                     <!--as referencias sao os links das paginas que cada item do menu direcionara-->
                     <li>
-                        <a href="">Aluguel</a>
+                        <a href="aluguel.php">Aluguel</a>
                     </li>
                     <!--as referencias sao os links das paginas que cada item do menu direcionara-->
                     <li>
@@ -71,7 +71,7 @@
                     </li>
                     <!--as referencias sao os links das paginas que cada item do menu direcionara-->
                     <li>
-                        <a href="">Contato</a>
+                        <a href="contato.php">Contato</a>
                     </li>
                     <!--as referencias sao os links das paginas que cada item do menu direcionara-->
                     <li>

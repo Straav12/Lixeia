@@ -3,7 +3,7 @@
 <head>
     <link rel="stylesheet" type="text/css" href="./css/main.css">
     <link rel="stylesheet" type="text/css" href="./css/slick.css">
-    <title>Lixeia | Sobre nós</title>
+    <title>Lixeia | Contato</title>
 </head>
 
 <body>
@@ -59,11 +59,11 @@
                     </li>
                     <!--as referencias sao os links das paginas que cada item do menu direcionara-->
                     <li>
-                        <a href="">Nosso Serviço</a>
+                        <a href="nossoServico.php">Nosso Serviço</a>
                     </li>
                     <!--as referencias sao os links das paginas que cada item do menu direcionara-->
                     <li>
-                        <a href="">Aluguel</a>
+                        <a href="aluguel.php">Aluguel</a>
                     </li>
                     <!--as referencias sao os links das paginas que cada item do menu direcionara-->
                     <li>
@@ -71,7 +71,7 @@
                     </li>
                     <!--as referencias sao os links das paginas que cada item do menu direcionara-->
                     <li>
-                        <a href="">Contato</a>
+                        <a href="contato.php">Contato</a>
                     </li>
                     <!--as referencias sao os links das paginas que cada item do menu direcionara-->
                     <li>
@@ -91,16 +91,19 @@
             <p>Caso queira contratar o serviço, sugerir modificações ou simplesmente conversar, estamos abertos pelos seguintes meios:
             </p>
             <div class="col-3 bloco-texto">
-                <i><img src="./img/fotosNossas/daniel.jpg" width="225" /></i>
+                <i><img src="./img/email.png" height="100" /></i>
                 <h3>E-mail</h3>
+                <p>contatolixeia@gmail.com<p>
             </div>
             <div class="col-3 bloco-texto">
-                <i><img src="./img/fotosNossas/eduardo.jpg" width="225" /></i>
-                <h3>Eduardo Trindade</h3>
+                <i><img src="./img/instagram-preto.png" width="100" /></i>
+                <h3>Instagram</h3>
+                <p>@_lixeia_<p>
             </div>
             <div class="col-3 bloco-texto">
-            <i><img src="./img/fotosNossas/henrique.jpg" width="225" height="225" /></i>
-                <h3>Henrique Sangiovanni </h3>
+            <i><img src="./img//whatsapp.png" width="100" height="100" /></i>
+                <h3>Whatsapp</h3>
+                <p>(51) XXXXX-XXXX<p>
             </div>
         </div>
     </div>

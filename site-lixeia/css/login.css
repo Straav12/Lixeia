@@ -33,6 +33,24 @@ font-size: 15px;
 cursor: pointer;
 }
 
+.back{
+    background-color: #0060ce;
+    margin-left: 34%;
+    text-align: center;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 15px;
+    cursor: pointer;    
+    text-decoration: none;
+}
+
+.back:hover{
+    background-color: #1878e6;
+}
+
 .inputSubmit:hover {
 background-color: #9aff02;
 }
