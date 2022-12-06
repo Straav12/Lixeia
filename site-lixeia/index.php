@@ -75,9 +75,12 @@
                     </li>
                     <!--as referencias sao os links das paginas que cada item do menu direcionara-->
                     <li>
-                        <a href="login.php">Login</a>
+                        <a href="login.php">Login (Dudi)</a>
                     </li>
                     <!--as referencias sao os links das paginas que cada item do menu direcionara-->
+                    <li>
+                        <a href="ALTmain.php">Login (Caça)</a>
+                    </li>
                 </ul>
             </div>
             <div class="busca">
