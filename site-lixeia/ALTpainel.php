@@ -1,13 +1,19 @@
-<html>
+<?php
+include('ALTprotect.php');
+?>
 
+<!DOCTYPE html>
+<html lang="pt-br">
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./css/main.css">
     <link rel="stylesheet" type="text/css" href="./css/slick.css">
-    <title>Lixeia | Aluguel</title>
+    <title>Lixeia | Painel</title>
 </head>
-
 <body>
-    <header class="menu-principal">
+<header class="menu-principal">
         <main>
             <div class="header-1">
                 <div class="logo">
@@ -17,6 +23,7 @@
                 </div>
                 <div class="redes-sociais">
                     <ul>
+
                         <li>
                             <a href="https://pt-br.facebook.com/" target="blank">
                                 <!--as referencias sao os links das redes sociais da lixeia-->
@@ -25,7 +32,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.instagram.com/_lixeia_/" target="blank">
+                            <a href="https://www.instagram.com/" target="blank">
                                 <!--as referencias sao os links das redes sociais da lixeia-->
                                 <img src="./img/Logo Instagram.png">
                                 <!--as sources sao os logos das redes sociais correspondentes-->
@@ -54,28 +61,24 @@
         <div class="header-2">
             <div class="menu">
                 <ul>
-                <li>
-                        <a href="index.php">Home</a>
+                    <li>
+                        <a href="">Início</a>
                     </li>
                     <!--as referencias sao os links das paginas que cada item do menu direcionara-->
                     <li>
-                        <a href="nossoServico.php">Nosso Serviço</a>
+                        <a href="">Verficar lixeiras</a>
                     </li>
                     <!--as referencias sao os links das paginas que cada item do menu direcionara-->
                     <li>
-                        <a href="aluguel.php">Aluguel</a>
+                        <a href="">Cálculo de rotas</a>
                     </li>
                     <!--as referencias sao os links das paginas que cada item do menu direcionara-->
                     <li>
-                        <a href="sobreNos.php">Sobre Nós</a>
+                        <a href="ALTfaleconosco.php">Fale conosco</a>
                     </li>
                     <!--as referencias sao os links das paginas que cada item do menu direcionara-->
                     <li>
-                        <a href="contato.php">Contato</a>
-                    </li>
-                    <!--as referencias sao os links das paginas que cada item do menu direcionara-->
-                    <li>
-                        <a href="login.php">Login</a>
+                        <a href="ALTlogout.php">Sair</a>
                     </li>
                     <!--as referencias sao os links das paginas que cada item do menu direcionara-->
                 </ul>
@@ -85,18 +88,12 @@
             </div>
         </div>
     </main>
-    <div class="col-100">
-        <div class="content texto-destaque">
-            <h1> <strong>Aluguel</strong></h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum assumenda odio a ut aliquam modi ipsa accusantium neque fugit, dolores aspernatur veritatis accusamus nesciunt, ducimus minima voluptate nihil quam officia?
-            </p>
-        </div>
-    </div>
-   
-    <script type="text/javascript" src="./js/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="./js/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="./js/slick.min.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
-</body>
 
+
+
+    Bem-vindo, <?php echo $_SESSION['nome']; ?>
+        <p>
+            <a href="ALTlogout.php">Sair</a>
+        </p>
+</body>
 </html>

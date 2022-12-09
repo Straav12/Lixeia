@@ -1,3 +1,6 @@
+<?php
+include('ALTprotect.php');
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +10,6 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <p>FALE CONOSCO</p>
 </body>
 </html>
