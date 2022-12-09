@@ -21,6 +21,7 @@ include('ALTprotect.php');
                         <img src="./img/Logo Lixeia.png" />
                     </a>
                 </div>
+                
                 <div class="redes-sociais">
                     <ul>
 
@@ -62,11 +63,11 @@ include('ALTprotect.php');
             <div class="menu">
                 <ul>
                     <li>
-                        <a href="">Início</a>
+                        <a href="ALTpainel">Início</a>
                     </li>
                     <!--as referencias sao os links das paginas que cada item do menu direcionara-->
                     <li>
-                        <a href="">Verficar lixeiras</a>
+                        <a href="ALTverificar.php">Verficar lixeiras</a>
                     </li>
                     <!--as referencias sao os links das paginas que cada item do menu direcionara-->
                     <li>
@@ -88,12 +89,17 @@ include('ALTprotect.php');
             </div>
         </div>
     </main>
-
-
-
-    Bem-vindo, <?php echo $_SESSION['nome']; ?>
+    <p>.</p>
+    <div class="content texto-destaque">
+        
         <p>
-            <a href="ALTlogout.php">Sair</a>
+            Bem-vindo, <b><?php echo $_SESSION['nome']; ?></b>.
         </p>
+        <br>
+        <p>
+            No painel do usuário pode-se verficar a capacidade atual de cada lixeira e a melhor rota para chegar até ela. Casa página possiu instruções e é configurada de maneira personalizada, portanto se ela estiver indisponível é porque está sendo ajustada. Caso tenha alguma dúvida, contate-nos de forma direta e rápida pela página fale conosco. Esperamos que tenha uma boa experiência com a <i>Lixeia</i>!
+        </p>
+    </div>
+  
 </body>
 </html>

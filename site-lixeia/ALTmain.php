@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./css/main.css">
     <link rel="stylesheet" type="text/css" href="./css/login.css">
-    <title>CAÇA</title>
+    <title>Lixeia | Login</title>
 </head>
 <body>
 <header class="menu-principal">
@@ -53,7 +53,7 @@
         </main>
     </header>
     <div class="tela-login">
-        <h1>Login Caça</h1>
+        <h1>Login</h1>
         <form action="" method="POST">
             <p>
                 <input type="text" name="email" placeholder="E-mail">

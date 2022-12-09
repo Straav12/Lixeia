@@ -75,9 +75,8 @@
                     </li>
                     <!--as referencias sao os links das paginas que cada item do menu direcionara-->
                     <li>
-                        <a href="login.php">Login</a>
+                        <a href="ALTmain.php" target="blank">Login</a>
                     </li>
-                    <!--as referencias sao os links das paginas que cada item do menu direcionara-->
                 </ul>
             </div>
             <div class="busca">
