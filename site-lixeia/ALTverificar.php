@@ -94,6 +94,10 @@
     <a href="log.php" target="_blank" class="tirar_estilo" >
         <div class="square">
             <br>
+            <?php
+                include('verificacao-cor.php');
+          
+            ?>
             <h3>Lixeira 1(um)<h3>
             <p>Volume de lixo atual:</p>
             <?php

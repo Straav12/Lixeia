@@ -1,5 +1,7 @@
+
+
 <?php
-$usuario = 'root';
+  $usuario = 'root';
    $senha = '';
    $database = 'db_lixeia';
    $host = 'localhost';
