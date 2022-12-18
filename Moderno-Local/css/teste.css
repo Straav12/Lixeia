@@ -1,0 +1,67 @@
+body{
+    height: 100%;
+ 
+}
+
+
+.head h1{
+    color: white;
+}
+.aligner{
+    margin-top: 15%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.centro{
+    font-size: 14pt;
+    color: black;
+}
+
+.centro div{
+    text-align: center;
+    display: inline-block;
+}
+
+.content{
+    height: 3.5vw;
+    width: 20vw;
+    position: relative;
+    top: 0.85vw;
+    right: 2vw;
+    color: rgb(0, 0, 0);
+    
+    overflow: hidden;
+}
+
+
+.list ul{
+    list-style: none;
+    
+  }
+  
+  .list ul li{
+    font-size: 3vw;
+    
+  }
+
+  .list{
+      transition: transform 0.9s ease;
+  }
+
+  .botao{
+    margin-top: 1%;
+    height: auto;
+    width: 4%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 50%;
+  }
+  
+.botao:hover{
+    opacity: 100%;
+  }

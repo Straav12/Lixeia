@@ -5,51 +5,70 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./css/home.css">
+    <link rel="stylesheet" type="text/css" href="./css/teste.css">
     <title>Lixeia | Home</title>
 </head>
 <body>
 
     <div class="header">
-        <img height="45px" src="./img/Logo Lixeia.png" alt="Logo Lixeia">
+        <img width="3%" src="./img/vetores/Vetor-Lixeia.svg" alt="Logo Lixeia">
         <a href="#default" class="logo">Lixeia</a>
         <div class="header-right">
-            <a class="active" href="#home">Home</a>
+            <a class="active" href="#home" class="clicavel">Home</a>
             
-            <a href="#contato">Contato</a>
-            <a href="ALTmain.php" target="_blank" class="redirecionar">Entrar</a>
+            <a href="#contato" class="clicavel">Contato</a>
+            <a href="ALTmain.php" target="_blank" class="clicavel">Entrar</a>
         </div>
     </div>
     
     <div class="inicio" id="apresentacao">
+
+        
         <img src="img/lixeira.JPG" class="meia-img">
-        <h2><strong>Lixeia</strong><h2> 
-        <br>
-        <p>Slogan bem bolado da lixeia</p>
+        <h2><strong>Lixeia,</strong><h2> 
+        
+        <div class="aligner">
+            <div class="centro">
+                <div class="head"><p>o caminho para</p></div>
+                <div class="content">
+                    <div class="list">
+                        <ul>
+                            <li>inovação.</li>
+                            <li>velocidade.</li>
+                            <li>otimização.</li>
+                            <li>tecnologia.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
     </div>
 
-    <div class="container" id="tempo"> 
-        <img src="img/tempo.png" alt="homem olhando relógio" class="imagem"> 
-        <h2 class="max">Otimização do <br><strong>tempo</strong><h2> 
+    <div class="info" id="comoFunciona"> 
+        <h2 class="max"><strong>Como</strong> funciona?<h2> 
+        <p>Um <strong>dispositivo</strong> é acoplado em cada lixeira.</p>
+        <img src="./img/dispositivo_lixeia.png" width="10%" alt="">
+        <p>O dispositivo abriga um <strong>sensor</strong> ultrassônico, o qual verifica o volume de lixo.</p>
+        <img src="./img/sensor.png" alt="">
     </div>
 
-    <div class="centro"></div>
-        <img src="img/seta_baixo.png" alt="Submit" id="btn1" class="botao"> 
-    </div>
+ 
     
+    <div class="logoWrap">
+        <div class="centro"></div>
+            <img src="img/seta_baixo.png" alt="Submit" id="btn1" class="botao"> 
+            <p class="saibamais" id="revelar">Saiba mais</p>
+            <p class="saibamais" id="esconder">Esconder</p>
+        </div>
+    </div>
 
     <div class="rodape">
         <p>Idealizado e desenvolvido por Daniel Kroeff, Eduardo Trindade e Henrique Sangiovani - 2023 </p>
     </div>
 
-    <script> 
-        document.getElementById("tempo").style.display = "none";
-        let img = document.querySelector('#apresentacao');
-        let btn1 = document.querySelector('#btn1');
-
-        btn1.addEventListener('click', () => {
-            document.getElementById("apresentacao").style.display = "none";
-            document.getElementById("tempo").style.display = "block";
-        })
-    </script>
+    
+    <script src="./js/roll.js"></script>
+    <script src="./js/teste.js"></script>
 </body>
 </html>
