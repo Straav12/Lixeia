@@ -1,7 +1,7 @@
 <?php
-$usuario = 'id19989027_login_auth';
-$senha = '\cQ6fj4B2RoPg5v?';
-$database = 'id19989027_db_login';
+$usuario = 'root';
+$senha = '';
+$database = 'login';
 $host = 'localhost';
 
 $mysqli = new mysqli($host, $usuario, $senha, $database);
