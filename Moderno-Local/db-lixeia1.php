@@ -5,9 +5,9 @@
     <?php
 
     $dbHost = 'localhost';
-    $dbUsername = 'id19989027_root';
-    $dbPassword = 'e4%OqA\5vQ)}^JEm';
-    $dbName = 'id19989027_db_lixeia';
+    $dbUsername = 'root';
+    $dbPassword = '';
+    $dbName = 'db_lixeia';
 
     $connect = @mysqli_connect($dbHost, $dbUsername, $dbPassword, $dbName);
 
