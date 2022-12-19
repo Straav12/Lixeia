@@ -1,5 +1,5 @@
 <?php
-include('maisRecente.php');  
+$volume = extrairVolume('tb_lixeia_1');
 if($volume < 50){
     echo "<div class=\"verde  \"></div>";       
 }else if($volume >= 50 and $volume < 75){

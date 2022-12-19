@@ -1,8 +1,6 @@
 <?php
-      include('maisRecente.php');
-
+    require 'maisRecente.php';
 ?>
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -96,18 +94,15 @@
             <br>
             <?php
                 include('verificacao-cor.php');
-          
             ?>
             <h3>Lixeira 1(um)<h3>
             <p>Volume de lixo atual:</p>
-            <?php
-                include('maisRecente.php');  
-                echo "" . $volume;       
+            <?php              
+                echo "" . extrairVolume('tb_lixeia_1');       
             ?>
             <p>Ultima verificação:</p>
-            <?php
-                include('maisRecente.php');  
-                echo "" . $hora;       
+            <?php 
+                echo "" . extrairHora('tb_lixeia_1');       
             ?>
         </div>
     </a>

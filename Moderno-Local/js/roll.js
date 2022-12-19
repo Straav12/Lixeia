@@ -7,7 +7,6 @@ let abriu = false;
 btn1.addEventListener('click', () => {
     if(abriu == false){
         document.getElementById("comoFunciona").style.display = "block";
-        document.getElementById("comoFunciona").style.transition = "2s";
         document.getElementById("btn1").style.transform = 'rotate(180deg)';
         document.getElementById("revelar").style.display = "none";
         document.getElementById("esconder").style.display = "block";
@@ -21,3 +20,20 @@ btn1.addEventListener('click', () => {
     }    
 })
 
+//TROCA DE PALAVRAS
+
+let li = document.querySelectorAll(".list ul li");
+let list = document.querySelector(".list");
+
+let element = 0, count = 0;
+
+setInterval(() => {
+    if(element < li.length - 1){
+        list.style.transform = `translateY(-${(count += 3.5)}vw)`
+        element++;
+    }else{
+        element = 0;
+        count = 0;
+        list.style.transform = `translateY(-${(count)}vw)`
+    }
+}, 3000);
